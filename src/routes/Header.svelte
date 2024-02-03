@@ -12,7 +12,7 @@
 	<nav>
 		<ul>
 			<li>
-				<a href="{base}/" class="text-sky-50 hover:text-sky-500 bold">Home</a>
+				<a href="{base}/" class="text-sky-50 hover:text-sky-500 bold text-3xl font-bold font-mono">S P L I T</a>
 			</li>
 		</ul>
 	</nav>
