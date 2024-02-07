@@ -25,7 +25,7 @@
 	<form on:submit|preventDefault={handleSubmit} class="grid grid-flow-col grid-cols-6 p-4 gap-4">
 		<select bind:value={from} class="bg-slate-900 rounded-xl p-4 pt-4 pb-4 w-full col-span-2">
 			{#each $data as item}
-				<option value={item}>{item}</option>
+				<option value={item} class="p-4 font-bold text-2xl rounded-xl bg-slate-900 hover:bg-slate-800 transition-color duration-200">{item}</option>
 			{/each}
 		</select>
 		<div class="text-2xl font-bold p-2 w-8 text-center align-middle col-span-1">paid</div>

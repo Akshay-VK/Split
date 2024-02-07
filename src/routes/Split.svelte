@@ -105,7 +105,7 @@
 					class="w-full grid grid-cols-6 grid-flow-row-dense bg-slate-900 hover:bg-slate-800 rounded-3xl p-2"
 				>
 					<div class="p-4 font-bold text-2xl col-span-5">
-						<i class="text-white text-3xl">{item.a}</i> must pay <i class="text-white text-3xl">{item.amt}</i> to <i class="text-white text-3xl">{item.b}.</i>
+						<i class="text-white text-3xl">{item.a}</i> must pay <i class="text-white text-3xl">{item.amt.toFixed(2)}</i> to <i class="text-white text-3xl">{item.b}.</i>
 					</div>
 				</div>
 			{:else if item.amt < 0}
@@ -113,7 +113,7 @@
 					class="w-full grid grid-cols-6 grid-flow-row-dense bg-slate-900 hover:bg-slate-800 rounded-3xl p-2"
 				>
 					<div class="p-4 font-bold text-2xl col-span-5">
-						<i class="text-white text-3xl">{item.b}</i> must pay <i class="text-white text-3xl">{-item.amt}</i> to <i class="text-white text-3xl">{item.a}.</i>
+						<i class="text-white text-3xl">{item.b}</i> must pay <i class="text-white text-3xl">{-item.amt.toFixed(2)}</i> to <i class="text-white text-3xl">{item.a}.</i>
 					</div>
 				</div>
 			{/if}
