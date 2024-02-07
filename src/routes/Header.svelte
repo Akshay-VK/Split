@@ -12,14 +12,14 @@
 	<nav>
 		<ul>
 			<li>
-				<a href="{base}/" class="text-sky-50 hover:text-sky-500 bold text-3xl font-bold font-mono">S P L I T</a>
+				<a href="{base}/" class="text-4xl font-bold text-slate-300 hover:text-slate-100 transition-colors duration-200">S P L I T</a>
 			</li>
 		</ul>
 	</nav>
 
 	<div class="corner">
 		<a href="https://github.com/Akshay-VK" class="text-sky-50 hover:text-sky-500">
-			<img src={github} alt="GitHub" />
+			<img src={github} alt="GitHub" class="bg-slate-500 hover:bg-slate-400 transition-colors duration-200 rounded-2xl"/>
 		</a>
 	</div>
 </header>
@@ -28,11 +28,12 @@
 	header {
 		display: flex;
 		justify-content: space-between;
+		height:4em;
 	}
 
 	.corner {
 		width: 3em;
-		height: 3em;
+		height: em;
 	}
 
 	.corner a {

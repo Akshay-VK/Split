@@ -7,7 +7,7 @@
 	import { setContext } from 'svelte';
 	import { writable } from 'svelte/store';
 
-	export const data = writable(['1','2','3']);
+	export const data = writable([]);
 	setContext('data',data);
 
 	export const payments = writable([]);
@@ -30,10 +30,6 @@
 
 <section>
 	<Tabs {items} />
-	<button
-		class="bg-slate-900 border-slate-50 text-slate-50 hover:bg-slate-50 hover:text-slate-950 p-4 rounded-2xl font-bold font-mono"
-		>Hello</button
-	>
 </section>
 
 <style lang="postcss">

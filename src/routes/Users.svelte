@@ -39,7 +39,7 @@
 		placeholder="Add name.."
 	/><button
 		on:click={() => addname()}
-		class="p-4 col-span-1 bg-slate-900 text-green-500 hover:text-slate-50 hover:bg-green-500 rounded-3xl font-semibold text-xl transition-colors duration-250"
+		class="p-4 col-span-1 bg-slate-900 text-green-500 hover:text-slate-50 hover:bg-green-500 rounded-3xl font-semibold text-xl transition-colors duration-200"
 		>Add</button
 	>
 </div>
@@ -50,7 +50,7 @@
 				<div class="p-4 font-bold text-2xl col-span-5">{item}</div>
                 <button
                     on:click={()=>removename(item)}
-					class="p-4 col-span-1 bg-slate-900 bg-opacity-0 hover:bg-opacity-100 text-red-500 hover:text-slate-50 hover:bg-red-500 rounded-3xl font-semibold text-xl  transition-colors duration-250"
+					class="p-4 col-span-1 bg-slate-900 bg-opacity-0 hover:bg-opacity-100 text-red-500 hover:text-slate-50 hover:bg-red-500 rounded-3xl font-semibold text-xl  transition-colors duration-200"
 					>Remove</button
 				>
 			</div>

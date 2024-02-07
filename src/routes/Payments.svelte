@@ -39,7 +39,7 @@
 		<button
 			disabled={!from}
 			type="submit"
-			class="p-4 col-div-1 bg-slate-900 text-green-500 hover:text-slate-50 hover:bg-green-500 rounded-3xl font-semibold text-xl col-span-1"
+			class="p-4 col-div-1 bg-slate-900 text-green-500 hover:text-slate-50 hover:bg-green-500 rounded-3xl font-semibold text-xl col-span-1 transition-colors duration-200"
 		>
 			➕
 		</button>
@@ -51,7 +51,7 @@
 				<div class="p-4 font-bold text-2xl col-span-5">{item.from} paid <i>{item.amt}</i></div>
                 <button
                     on:click={()=>removename(item)}
-					class="p-4 col-span-1 bg-slate-900 bg-opacity-0 hover:bg-opacity-100 text-red-500 hover:text-slate-50 hover:bg-red-500 rounded-3xl font-semibold text-xl  transition-colors duration-250"
+					class="p-4 col-span-1 bg-slate-900 bg-opacity-0 hover:bg-opacity-100 text-red-500 hover:text-slate-50 hover:bg-red-500 rounded-3xl font-semibold text-xl  transition-colors duration-200"
 					>Remove</button
 				>
 			</div>
