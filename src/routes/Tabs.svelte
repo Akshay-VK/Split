@@ -8,12 +8,12 @@
 <ul class="w-full">
 	{#each items as item}
 		{#if activeTabValue == item.value}
-			<span on:click={handleClick(item.value)} class="bg-slate-50 p-4 w-1/3 rounded-t-2xl text-slate-900 text-xl font-semibold">{item.label}</span>
+			<div on:click={handleClick(item.value)} class="bg-slate-50 p-4 w-1/3 rounded-t-2xl text-slate-900 text-xl font-semibold  transition-colors duration-250">{item.label}</div>
 		{:else}
-			<span
+			<div
 				on:click={handleClick(item.value)}
-				class="p-4 w-1/3 bg-slate-900 rounded-t-2xl text-slate-50 hover:bg-slate-50 hover:text-slate-950 text-xl font-semibold"
-				>{item.label}</span
+				class="p-4 w-1/3 bg-slate-900 rounded-t-2xl text-slate-50 hover:bg-slate-50 hover:text-slate-950 text-xl font-semibold  transition-colors duration-250"
+				>{item.label}</div
 			>
 		{/if}
 	{/each}

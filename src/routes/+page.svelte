@@ -7,8 +7,11 @@
 	import { setContext } from 'svelte';
 	import { writable } from 'svelte/store';
 
-	export const data = writable([]);
+	export const data = writable(['1','2','3']);
 	setContext('data',data);
+
+	export const payments = writable([]);
+	setContext('payments',payments);
 
 	export const transactions = writable([]);
 
