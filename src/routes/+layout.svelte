@@ -3,6 +3,9 @@
 	import '../app.css';
 	import './styles.css';
 </script>
+<svelte:head>
+    <title>S P L I T</title> 
+</svelte:head>
 
 <div class="app">
 	<Header/>
