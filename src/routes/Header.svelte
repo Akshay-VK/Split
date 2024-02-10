@@ -12,7 +12,7 @@
 	<nav>
 		<ul>
 			<li>
-				<a href="{base}/" class="text-4xl font-bold text-slate-300 hover:text-slate-100 transition-colors duration-200">S P L I T</a>
+				<a href="{base}/" class="roboto-serif-f text-4xl font-bold text-slate-300 hover:text-slate-100 transition-colors duration-200">S P L I T</a>
 			</li>
 		</ul>
 	</nav>
@@ -93,5 +93,14 @@
 		letter-spacing: 0.1em;
 		text-decoration: none;
 		transition: color 0.2s linear;
+	}
+	.roboto-serif-f {
+		font-family: "Roboto Serif", serif;
+		font-optical-sizing: auto;
+		font-weight: 100;
+		font-style: italic;
+  		font-variation-settings:
+			"wdth" 90,
+			"GRAD" 0;
 	}
 </style>
